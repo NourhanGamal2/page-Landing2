@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Landing_Page</title>
+</head>
+<body>
+  <!-- ====================Navbar====================== -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm">
+    <div class="container">
+      <!-- Logo -->
+      <a class="navbar-brand" href="#">
+          <img src="/img/Logo.png" alt="VivaDecor Logo" style="height: 30px;">
+      </a>
+      <!-- Toggler button -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar links -->
+      <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Support</a>
+        </li>
+        </ul>
+          
+        <!-- Sign Up Button -->
+        <a href="#" class="btn btn-dark w-100 d-lg-none mt-3">Sign Up</a>
+      </div>
+
+      <!-- Sign Up Button -->
+      <a href="#" class="btn btn-dark ms-2 d-none px-4 d-lg-block">Sign Up</a>
+    </div>
+  </nav>
+  <!-- ========================================== -->
+  <!-- =====================section1===================== -->
+  <section class="bg-white py-16 px-6 md:px-12 lg:px-24 section1"> 
+    <div class="max-w-6xl mx-auto">
+      <!-- ============================-->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-12 items-center w-100">
+        <div class="lg:col-span-2 max-w-6xl mx-start">
+          <h1 class="text-4xl md:text-7xl lg:text-8xl text-black mb-6 text-left">
+            Interior Design
+          </h1>
+          <p class="text-sm md:text-base lg:text-sm xl:text-base font-normal text-gray-600 leading-relaxed max-w-lg text-left">        Step into a world where the art of Interior Design is meticulously 
+            crafted to bring together timeless elegance and cutting-edge modern 
+            innovation, allowing you to transform your living spaces into the epitome 
+            of luxury and sophistication.
+          </p>
+        </div>
+        <div class="flex justify-right images">
+          <img src="/img/Image 1.png" alt="Interior Design Image 1" class="rounded-sm shadow-md w-3/4 md:w-1/2 lg:w-2/3 xl:w-2/2">
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ==================section2======================== -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!--  النصوص والزر -->
+      <div>
+        <button class="bg-black text-white py-3 px-12 rounded-md mb-24">
+          Start Project
+        </button>
+        <div class="grid grid-cols-1 sm:grid-cols-3 gap-8 text-center">
+          <div>
+            <h2 class="text-2xl sm:text-5xl text-gray-700 ">400+</h2>
+            <p class="text-gray-600 text-sm sm:text-base">Project Complete</p>
+          </div>
+          <div>
+            <h2 class="text-2xl sm:text-5xl text-gray-700">600+</h2>
+            <p class="text-gray-600 text-sm sm:text-base">Satisfied Clients</p>
+          </div>
+          <div>
+            <h2 class="text-2xl sm:text-5xl text-gray-700">100+</h2>
+            <p class="text-gray-600 text-sm sm:text-base">Unique Styles</p>
+          </div>
+        </div>
+      </div>
+      <!--  الصورة -->
+      <div class="relative flex justify-center items-center">
+        <!-- الإطار الخارجي الأسود -->
+        <div class="absolute -top-4 -left-4 w-40 h-40 border-2 border-black rounded-lg z-0 hidden sm:block section-border"></div>
+        <!-- الصورة مع الإطار الأبيض -->
+        <img src="/img/Image 2.png" alt="Interior Design" class="relative z-10 rounded-lg border-4 border-white w-full max-w-md sm:max-w-lg ">
+        <div class="absolute bottom-1 right-0 transform translate-x-1/2 bg-black sm:w-10 sm:h-20 md:w-10 md:h-20 lg:w-24 lg:h-24 flex items-center justify-center z-10 section2-icon">
+          <i class="fas fa-long-arrow-alt-down text-white text-lg sm:text-2xl md:text-2xl"></i>
+        </div>
+      </div>
+    </div>
+  </section> 
+  <!-- ====================section3====================== -->
+  <section class="py-24 bg-white">
+    <div class="container mx-auto px-6 md:px-12">
+      <div class="flex items-center space-x-4 mb-20">
+        <!-- الخط الأفقي -->
+        <div class="w-10 h-0.5 bg-gray-900"></div>
+        <!-- head -->
+        <h2 class="text-4xl font-semibold text-gray-900 text-center sm:text-start">Our Services</h2>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-12">
+        <!-- Lighting Design -->
+        <div class="flex flex-col items-center sm:flex-row sm:items-start sm:space-x-4 text-center sm:text-start">
+          <i class="fas fa-lightbulb text-5xl text-gray-900 mb-4 sm:mb-0"></i>
+          <div class="Lighting-Design">
+            <h3 class="text-xl font-medium text-gray-900 mb-4">Lighting Design</h3>
+            <p class="text-gray-800">
+              Achieve the perfect balance of ambient, task, 
+              and accent lighting for a functional atmosphere.
+            </p>
+          </div>
+        </div>
+        <!-- Interior Design -->
+        <div class="flex flex-col items-center sm:flex-row sm:items-start sm:space-x-4 text-center sm:text-start">
+          <i class="fas fa-couch text-5xl text-gray-900 mb-4 sm:mb-0"></i>
+          <div class="Lighting-Design">
+            <h3 class="text-xl font-medium text-gray-900 mb-4">Interior Design</h3>
+            <p class="text-gray-800">
+              From concept to completion, we oversee every detail to 
+              bring your vision to life efficiently.
+            </p>
+          </div>
+        </div>
+        <!-- Outdoor Design -->
+        <div class="flex flex-col items-center sm:flex-row sm:items-start sm:space-x-4 text-center sm:text-start">
+          <i class="fas fa-tree text-5xl text-gray-900 mb-4 sm:mb-0"></i>
+          <div class="Lighting-Design">
+            <h3 class="text-xl font-medium text-gray-900 mb-4">Outdoor Design</h3>
+            <p class="text-gray-800">
+              Celebrate the changing seasons with our 
+              seasonal outdoor decor services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================section4==================== -->
+  <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+    <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+      <!-- الصورة -->
+      <div class="flex justify-center">
+        <img src="/img/Mask group.png" alt="Living Room" class="rounded-lg shadow-lg w-full max-w-md lg:max-w-lg">
+      </div>
+      <!-- ============================-->
+      <div>
+        <h2 class="text-3xl sm:text-4xl text-gray-900 mb-5">
+          Designing Your Dream With Brilliance
+        </h2>
+        <p class="text-gray-800  sm:text-lg mb-8">
+          Elevate your spaces with bespoke interior designs that reflect your unique style and aspirations, crafted with precision and brilliance for an unforgettable living experience.
+        </p>
+       <!-- ============================-->
+        <div class="space-y-4">
+          <div class="flex justify-between items-center border-b border-gray-300 pb-3 cursor-pointer mb-10">
+            <span class="text-gray-800 font-medium text-lg">Living Room Interior Design</span>
+            <span class="text-gray-500 text-xl">+</span>
+          </div>
+          <div class="flex justify-between items-center border-b border-gray-300 pb-3 cursor-pointer">
+            <span class="text-gray-800 font-medium text-lg">Commercial Office Room Interior Design</span>
+            <span class="text-gray-500 text-xl">+</span>
+          </div>
+        </div>
+        <!-- Learn More -->
+        <div class="mt-8">
+          <button class="bg-black text-white py-3 px-12 rounded-md hover:bg-gray-800 transition">
+            Learn More
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ======================section5==================== -->
+  <section class="flex max-w-6xl mx-auto flex-col md:flex-row items-center md:items-start gap-8 p-6 md:p-12 section5 justify-center">
+    <!-- النص -->
+    <div class="flex-1">
+      <h2 class="text-2xl md:text-4xl font-bold mb-12">Designing Your Dream in Three Simple Steps</h2>
+      <div class="space-y-6">
+        <!-- ============================-->
+        <div class="flex items-start">
+          <div class="w-8 h-8 p-4 flex-shrink-0 bg-black text-white rounded-full flex items-center justify-center mr-4">
+            <span class="text-sm text-xl"><i class="fas fa-rocket"></i></span>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-2">Start Project</h3>
+            <p class="text-gray-600">
+              Embark on your design adventure by initiating your project. Share your vision and set the stage for a bespoke design experience.
+            </p>
+          </div>
+        </div>
+        <!-- ============================-->
+        <div class="flex items-start">
+          <div class="w-8 h-8 p-4 flex-shrink-0 bg-black text-white rounded-full flex items-center justify-center mr-4">
+            <span class="text-sm text-xl"><i class="far fa-lightbulb"></i></span>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-2">Craft</h3>
+            <p class="text-gray-600">
+              Collaborate closely to achieve design excellence, refining your vision and crafting brilliance into every aspect of your space.
+            </p>
+          </div>
+        </div>
+        <!-- ============================-->
+        <div class="flex items-start">
+          <div class="w-8 h-8 p-4 flex-shrink-0 bg-black text-white rounded-full flex items-center justify-center mr-4">
+            <span class="text-sm text-xl"><i class="far fa-check-circle"></i></span>
+          </div>
+          <div>
+            <h3 class="text-lg font-semibold mb-2">Execute</h3>
+            <p class="text-gray-600">
+              Witness your vision becoming a reality as we execute the design plan with precision. Celebrate the joy of your newly transformed space.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- الصورة -->
+    <div class="flex-1 md:ml-8">
+      <img
+        src="/img/Image.png"
+        alt="Interior design"
+        class="rounded-lg shadow-md"
+      />
+    </div>
+  </section>
+  <!-- =============================section6========================= -->
+  <section class="testimonial-section ">
+    <div class="image">
+        <img src="/img/Mask group (1).png" alt="Room Interior">
+        <!-- ================== -->
+        <div class="testimonial-card active">
+          <i class="fa-solid fa-quote-left"></i>
+          <p>
+              Working with your design team was an absolute pleasure. The attention to detail and creativity exceeded my expectations. Thank you for making my home beautiful!
+          </p>
+        <div class="desc-card">
+          <img src="/img/Mask group.png" alt="Sophie Carter">
+          <div class="child-card">
+            <div class="name">Sophie Carter</div>
+          <div class="location">New York, USA</div>
+          </div>
+        </div>
+      </div>
+      <div class="arrows">
+        <i class="fa-solid fa-arrow-left"></i>
+        <i class="fa-solid fa-arrow-right"></i>
+      </div>
+    </div>
+    <div class="content testimonial-content">
+        <div class="testimonial-header"><h1>What Our Customers Say About Us</h1> </div>
+        <div class="testimonial-container">
+            
+            <div class="testimonial-card secound">
+              <div class="icon">
+                <i class="fa-solid fa-quote-left"></i>
+               </div>
+                <p>
+                  Exceptional service! From the initial consultation to the final reveal, your team demonstrated professionalism and a keen eye for design. Highly recommend!
+                </p>
+                <div class="descreotion">
+
+                   <div class="desc-card">
+                  <img src="/img/Mask group (2).png" alt="James Bennett">
+                <div class="child-card">
+                  <div class="name">James Bennett</div>
+                  <div class="location">Toronto, Canada</div>
+                </div>
+                </div>
+               
+                </div>
+            </div>
+        </div> 
+    </div>
+  </section>
+  <!-- ======================section7========================== -->
+     <!-- Newsletter Section -->
+   <section class="bg-white pt-16 px-4  mx-auto pt-24 section7">
+    <div class="max-w-4xl mx-auto text-center">
+      <h2 class="text-5xl mb-4 leading-snug">Subscribe to Our Newsletter for Design Insights</h2>
+      <p class="text-gray-600 mb-8 Newsletter">
+        Be the first to discover trends, inspirations, and special offers as we bring the world of design directly to your inbox.
+      </p>
+    </div>
+  </section> 
+
+  <!-- Input -->
+  <div class="relative  section-input">
+    <div class="max-w-4xl  -translate-y-1/2 px-4">
+      <div class="flex items-center justify-center shadow-lg rounded-md overflow-hidden bg-white">
+        
+        <div class="relative w-full">
+          <span class="absolute inset-y-0 left-0 flex items-center pl-8 text-gray-500">
+            <i class="fas fa-envelope"></i>
+          </span>
+          <input
+            type="email"
+            placeholder="Enter your email address"
+            class="w-full p-4 pl-10 ml-8 z-10"
+          />
+        </div>
+        <button class="bg-black text-center text-white  px-24 py-3 hover:bg-gray-700 mr-4 z-10">
+          Subscribe
+        </button>
+      </div>
+    </div>
+  </div> 
+
+  <!-- Footer -->
+  <footer class="text-white pt-16 pb-12 px-4 ">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-4 gap-8 section-footer">
+      <!-- Logo & Description -->
+      <div>
+        <h3 class="text-xl font-bold mb-4">VivaDecor</h3>
+        <p class="text-gray-400">
+          VivaDecor your premier destination for luxury and modern interior design.
+        </p>
+        <!-- Social Icons -->
+        <div class="flex space-x-4 mt-4">
+          <a href="#" class="text-white"><i class="fab fa-facebook"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      
+      <div class=" VivaDecor">
+        <h4 class="font-semibold text-lg mb-4">Our Services</h4>
+        <ul>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Interior Design</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Outdoor Design</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Lighting Design</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Office Design</a></li>
+        </ul>
+      </div>
+      
+      <div class=" VivaDecor">
+        <h4 class="font-semibold text-lg mb-4">Company</h4>
+        <ul>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Reviews</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Careers</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Pricing</a></li>
+          <li class="mb-2"><a href="#" class="text-gray-400 hover:text-gray-200">Press Inquiries</a></li>
+        </ul>
+      </div>
+      
+      <div >
+        <h4 class="font-semibold text-lg mb-4">Contact</h4>
+        <p class="text-gray-400 mb-2">info@vivadecor.com</p>
+        <p class="text-gray-400">Design Avenue Cityville, CA 90210 United States</p>
+      </div>
+    </div>
+  </footer>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+
+
+
+
+
+
+
+
+
+  <!-- Link to Bootstrap JS and dependencies -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    
+</body>
+</html>
