@@ -490,6 +490,11 @@ footer div.VivaDecor h4 {
         padding: 10px 30px ;
         width: 100%;
     }
+    .testimonial-card.secound {
+        width: 100%;
+        padding: 10px ;
+        padding-right: 30px;
+    }
 
     .testimonial-card p {
         font-size: 13px;
@@ -498,6 +503,7 @@ footer div.VivaDecor h4 {
     .arrows i {
         padding: 8px 10px;
         font-size: 14px;
+        margin-top: -100px;
     }
     /* =========================== */
     .section-input .max-w-4xl {
